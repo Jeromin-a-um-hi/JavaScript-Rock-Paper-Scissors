@@ -1,0 +1,36 @@
+.invisible {
+    opacity: 0;
+}
+
+.visible {
+    animation-duration: 4s;
+    animation-name: fadeIn;
+}
+
+.none {
+    display: none;
+}
+
+.green {
+    color: lawngreen;
+}
+
+.red {
+    background-color: red;
+}
+
+#messagestyle {
+    font-size: calc(2vw + 12px);
+    width: 100vw;
+}
+
+.messagetext {
+    animation-duration: 2s;
+    animation-name: fadeOut;
+}
+
+.greenhover {
+    &:hover {
+        background-color: greenyellow;
+    }
+}

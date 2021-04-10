@@ -1,0 +1,10 @@
+$googleblue: #1a73e8;
+$googlegray: #f8f9fa;
+$font-family-sans-serif: "Arial", -apple-system, "Segoe UI", Roboto, "Helvetica Neue", system-ui, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+$theme-colors: (
+  "googleblue": $googleblue,
+  "googlegray": $googlegray,
+);
+
+@import "../google-homepage/node_modules/bootstrap/scss/bootstrap.scss";

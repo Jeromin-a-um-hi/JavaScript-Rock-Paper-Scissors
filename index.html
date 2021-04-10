@@ -1,0 +1,36 @@
+<html>
+    <body>
+        <head>
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <title>Rock Paper Scissors</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" type="text/css" href="main.css">
+            <link rel="stylesheet" type="text/css" href="custombootstrap/custombootstrap.css">
+        </head>
+        <div id="buttoncontainer">
+            <button class="btn btn-googleblue" id="startgame">Start the game!</button>
+        </div>
+        <main class="fluid-container invisible none" id="mainone">
+            <h1><b>Rock, Paper, Scissors!<br></b><span id="messagestyle" class="help green"></span></h1>
+            <div class="row mainrow text-center">
+                <span class="col-md-3">
+                    <img src="images/rock-svgrepo-com.svg" alt="Rock image." id="rock" class="greenhover">
+                </span>
+                <span class="col-md-3">
+                    <img src="images/newspaper-svgrepo-com.svg" alt="Paper image." id="paper" class="greenhover">
+                </span>
+                <span class="col-md-3">
+                    <img src="images/scissors-svgrepo-com.svg" alt="Scissors image." id="scissors" class="greenhover">
+                </span>
+            </div>
+            <footer>
+                <ul class="row subrow">
+                    <li class="col-md-6">Your Wins:<span id="playerwins"></span></li>
+                    <li class="col-md-6">Computer's Wins:<span id="computerwins"></span></li>
+                </ul>
+            </footer>
+        </main>
+        <script type="text/javascript" src="main.js"></script>
+    </body>
+</html>
